@@ -1,0 +1,29 @@
+
+
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure the body and html take the full height */
+    background-color: #E4E4E4; /* Gray background for the entire screen */
+    overflow: hidden;
+}
+
+#banner {
+    width: 100%;
+    height: 300px;
+    background-color: #E4E4E4; /* Light blue background for the sea effect */
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px; /* Optional: Adjust this margin to place the banner lower on the screen if desired */
+}
+
+#sailboat {
+    position: absolute;
+    width: 100px;  /* Adjust based on your image size */
+    height: auto;
+    top: 50%;  /* Start in the middle vertically */
+    left: 50%;  /* Start at the center horizontally */
+    transform: translate(-50%, -50%); /* Center the boat both horizontally and vertically */
+    transition: transform 0.2s ease-in; /* Smooth transition for flipping */
+}
