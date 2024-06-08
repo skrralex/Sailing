@@ -25,5 +25,5 @@ body, html {
     top: 50%;  /* Start in the middle vertically */
     left: 50%;  /* Start at the center horizontally */
     transform: translate(-50%, -50%); /* Center the boat both horizontally and vertically */
-    transition: transform 0.2s ease-in; /* Smooth transition for flipping */
+    transition: transform 0.15s ease-in; /* Smooth transition for flipping */
 }
