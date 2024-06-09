@@ -15,7 +15,7 @@ body, html {
     background-color: #E4E4E4; /* Light blue background for the sea effect */
     position: relative;
     overflow: hidden;
-    margin-top: 50px; /* Optional: Adjust this margin to place the banner lower on the screen if desired */
+    margin-top: 400px; /* Optional: Adjust this margin to place the banner lower on the screen if desired */
 }
 
 #sailboat {
